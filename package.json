@@ -1,0 +1,19 @@
+{
+  "name": "test-task_users-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/an-shem/test-task_users-list.git"
+  },
+  "author": "Andrey Shemet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/an-shem/test-task_users-list/issues"
+  },
+  "homepage": "https://github.com/an-shem/test-task_users-list#readme"
+}
