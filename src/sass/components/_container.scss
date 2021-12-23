@@ -1,0 +1,15 @@
+.container {
+  width: 90%;
+  margin: 20px auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+
+  @media screen and (min-width: 650px) {
+    width: 600px;
+  }
+}
