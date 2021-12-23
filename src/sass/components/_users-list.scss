@@ -49,13 +49,9 @@
   &__buttons {
     display: flex;
     flex-direction: column;
-    // color: #4a3934;
   }
 
   &__button {
-    // width: 60px;
-    // height: 14px;
-    // margin: 0 auto;
     padding: 8px;
     font-family: inherit;
     font-size: 10px;
@@ -67,7 +63,7 @@
     border-radius: 8px;
     cursor: pointer;
 
-    &:hover {
+    &:hover:enabled {
       background: #ca5757;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
       color: #f2f4f3;
@@ -78,8 +74,6 @@
     }
 
     @media screen and (min-width: 400px) {
-      // width: 160px;
-      // height: 40px;
       font-size: 16px;
     }
   }
