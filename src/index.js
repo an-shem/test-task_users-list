@@ -20,4 +20,3 @@ refs.form.addEventListener('submit', getFormData);
 refs.ul.addEventListener('click', btnClickHandler);
 
 refs.buttonsContact = document.querySelectorAll('.users-list__button');
-refs.buttonsContact = document.querySelectorAll('.users-list__button');

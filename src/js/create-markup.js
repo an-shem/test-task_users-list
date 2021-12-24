@@ -1,7 +1,6 @@
 import { nanoid } from 'nanoid';
 
-export const creatMarkup = ({ name, number }) => {
-  const id = nanoid();
+export const creatMarkup = ({ name, number, id }) => {
   return `
   <li id=${id} class="users-list__item">
   <div class="users-list__text">
