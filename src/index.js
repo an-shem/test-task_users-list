@@ -1,9 +1,13 @@
 import './sass/main.scss';
+// import contactsApi from './services/api';
 import { creatMarkup } from './js/markup/create-markup';
 import { getFormData } from './js/get-form-data';
 import { btnClickHandler } from './js/btn-click-handler';
 
 import users from './db.json';
+
+// Получаем контакты с базы данных
+// const users = contactsApi.getAllContacts;
 
 export const refs = {
   ul: document.querySelector('.users-list'),

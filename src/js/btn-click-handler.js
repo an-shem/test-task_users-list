@@ -1,4 +1,5 @@
 import { refs } from '..';
+// import contactsApi from '../services/api';
 import { blockForm } from './block-form';
 import { creatingElementEditMarkup } from './markup/element-edit-markup';
 import { updateContact } from './update-contact';
@@ -10,6 +11,13 @@ export const btnClickHandler = e => {
   if (name === 'delete') {
     const deletedContact = document.getElementById(`${dataId}`);
     deletedContact.remove();
+
+    // Удаление из базы данных
+    // const deletedContact = contactsApi.deleteContact(dataId);
+    // if (deletedContact) {
+    //  const deletedContact = document.getElementById(`${dataId}`);
+    //  deletedContact.remove();
+    // }
   }
 
   if (name === 'edit') {
