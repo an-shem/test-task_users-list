@@ -1,5 +1,5 @@
 import './sass/main.scss';
-import { creatMarkup } from './js/create-markup';
+import { creatMarkup } from './js/markup/create-markup';
 import { getFormData } from './js/get-form-data';
 import { btnClickHandler } from './js/btn-click-handler';
 
@@ -19,4 +19,4 @@ refs.ul.insertAdjacentHTML('afterbegin', arrMarkupRef);
 refs.form.addEventListener('submit', getFormData);
 refs.ul.addEventListener('click', btnClickHandler);
 
-refs.buttonsContact = document.querySelectorAll('.users-list__button');
+refs.buttonsContact = document.querySelectorAll('.button');

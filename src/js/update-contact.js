@@ -1,6 +1,6 @@
 import { refs } from '..';
 import { unblockForm } from './unblock-form';
-import { createEditedMarkup } from './create-edited-markup';
+import { createEditedMarkup } from './markup/create-edited-markup';
 
 export const updateContact = (e, id, elem) => {
   const name = e.target.name.value;
@@ -8,7 +8,7 @@ export const updateContact = (e, id, elem) => {
 
   setTimeout(() => {
     elem.innerHTML = createEditedMarkup({ name, number, id });
-    refs.buttonsContact = document.querySelectorAll('.users-list__button');
+    refs.buttonsContact = document.querySelectorAll('.button');
     unblockForm();
   }, 2000);
 };

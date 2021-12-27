@@ -9,8 +9,8 @@ export const creatMarkup = ({ name, number, id }) => {
   ><span class="users-list__phone-text">${number}</span></a>
   </div>
   <div class="users-list__buttons">
-  <button data-id=${id} name="edit" class="users-list__button edit" type="button">Редактировать</button>
-  <button data-id=${id} name="delete" class="users-list__button delete" type="button">Удалить</button>
+  <button data-id=${id} name="edit" class="button button__edit" type="button">Редактировать</button>
+  <button data-id=${id} name="delete" class="button button__delete" type="button">Удалить</button>
   </div>
   </li>
   `;

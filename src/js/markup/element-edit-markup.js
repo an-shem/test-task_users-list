@@ -24,8 +24,8 @@ export const creatingElementEditMarkup = ({ name, number }) => {
         </div>
          
             <div class="users-list__buttons">
-            <button name="save" class="users-list__button save"  type="submit" ">Сохранить</button>
-            <button name="clear" class="users-list__button clear" type="button">Очистить</button>
+            <button name="save" class="button button__save"  type="submit" ">Сохранить</button>
+            <button name="clear" class="button button__clear" type="button">Очистить</button>
             </div>
             </form>
   `;
