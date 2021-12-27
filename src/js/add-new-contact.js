@@ -9,5 +9,5 @@ export const addNewContact = contact => {
     refs.ul.insertAdjacentHTML('afterbegin', creatMarkup(contact));
     refs.buttonsContact = document.querySelectorAll('.users-list__button');
     unblockForm();
-  }, 4000);
+  }, 2000);
 };
